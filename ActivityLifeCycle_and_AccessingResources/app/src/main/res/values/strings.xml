@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="Button_Text">Click Me!</string>
+    <string-array name="Questions">
+        <item>Are you vegetarian?</item>
+        <item> Do you play any sports?</item>
+        <item> Do you drink energy drinks?</item>
+    </string-array>
+</resources>
