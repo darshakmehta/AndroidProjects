@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="welcome">Welcome to Github!</string>
+    <string name="second_btn">Welcome to Android Native</string>
+    <string name="intent_btn2">Implicit Intent</string>
+    <string name="intent_btn1">Explicit Intent</string>
+    <string name="finish">Finish</string>
+    <string name="intent_btn3">Get Result</string>
+</resources>
