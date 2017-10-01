@@ -11,4 +11,6 @@ Beginners Application
   4. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Explicit_Intents"> Explicit Intent with no Result </a>
   5. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Implicit_Intent"> Implicit Intent with 2 Activities with Same Action </a>
   6. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Explicit_Intents_Data_Passing"> Passing Serializable Data between Activities </a>
+  7. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Parcelable_Data_Passing"> Passing Parcelable Data </a>
+
   
