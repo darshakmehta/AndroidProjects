@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Implicit_Intent</string>
+    <string name="intents">Implicit Intents</string>
+    <string name="second">Implicit Intents</string>
+    <string name="done">Done</string>
+    <string name="secondActivity">Second Activity</string>
+    <string name="thirdActivity">Third Activity</string>
+</resources>
