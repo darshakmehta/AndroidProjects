@@ -14,7 +14,7 @@ Beginners Application
   7. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Parcelable_Data_Passing"> Passing Parcelable Data </a>
   8. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Intent_CALL_Permission"> Intent CALL Permissions </a>
   9. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/AlertDialog"> Types of Alert Dialog along with Progress Dialog </a>
-  	 <h3><b> Note: </b> In Example 9: Handler is just use to delay the progressDialog, we will explore Handler in detail in future Example
+  	 <h6><b> Note: </b> In Example 9: Handler is just use to delay the progressDialog, we will explore Handler in future Example</h6>
  
 
 
