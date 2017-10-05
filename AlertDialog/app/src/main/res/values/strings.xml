@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+    <string name="alert">Alert Dialog</string>
+    <string name="colorList">Selected Colors:</string>
+    <string name="colorButton">Selected Colors</string>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>
