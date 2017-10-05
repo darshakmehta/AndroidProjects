@@ -15,6 +15,7 @@ Beginners Application
   7. [Passing Parcelable Data](/Parcelable_Data_Passing)
   8. [Intent CALL Permissions](/Intent_CALL_Permission)
   9. [Types of Alert Dialog along with Progress Dialog](/AlertDialog)
+  10. [Intent: startActivityForResult](/ActivityForResult)
 
      ###### Note: In Example 9: Handler is just use to delay the progressDialog, we will explore Handler in future Example
  

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivityForResult</string>
+    <string name="MainActivity">Main Activity</string>
+    <string name="goSecond">Go To Second Activity</string>
+    <string name="goMain">Go to Main Activity</string>
+    <string name="SecondActivity">Second Activity</string>
+    <string name="Name">Enter your name</string>
+</resources>
