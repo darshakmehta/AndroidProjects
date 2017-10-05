@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EventHandler</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Other">Other</string>
+    <string name="otherCancel">Another Cancel</string>
+</resources>
