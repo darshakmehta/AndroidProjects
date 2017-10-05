@@ -17,7 +17,7 @@ Beginners Application
   9. [Types of Alert Dialog along with Progress Dialog](/AlertDialog)
   10. [Intent: startActivityForResult](/ActivityForResult)
 
-     ###### Note: In Example 9: Handler is just use to delay the progressDialog, we will explore Handler in future Example
+###### Note: In Example 9: Handler is just use to delay the progressDialog, we will explore Handler in future Example
  
 
 
