@@ -8,13 +8,13 @@ Beginners Application
 
   1. [Understanding the Activity Life Cycle and Accessing Resources](/ActivityLifeCycle_and_AccessingResources)
   2. [Generating Layout Dynamically and operating on Views programmatically](/Programmed_RelativeLayout)
-  3. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Intents"> Messaging Between Activities using Intents </a>
-  4. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Explicit_Intents"> Explicit Intent with no Result </a>
-  5. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Implicit_Intent"> Implicit Intent with 2 Activities with Same Action </a>
-  6. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Explicit_Intents_Data_Passing"> Passing Serializable Data between Activities </a>
-  7. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Parcelable_Data_Passing"> Passing Parcelable Data </a>
-  8. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/Intent_CALL_Permission"> Intent CALL Permissions </a>
-  9. <a href= "https://github.com/tech-boy/AndroidProjects/tree/master/AlertDialog"> Types of Alert Dialog along with Progress Dialog </a>
+  3. [Messaging Between Activities using Intents](/Intents)
+  4. [Explicit Intent with no Result](/Explicit_Intents)
+  5. [Implicit Intent with 2 Activities with Same Action](Implicit_Intent)
+  6. [Passing Serializable Data between Activities](/Explicit_Intents_Data_Passing)
+  7. [Passing Parcelable Data](/Parcelable_Data_Passing)
+  8. [Intent CALL Permissions](/Intent_CALL_Permission)
+  9. [Types of Alert Dialog along with Progress Dialog](/AlertDialog)
   	 ###### Note: In Example 9: Handler is just use to delay the progressDialog, we will explore Handler in future Example
  
 
