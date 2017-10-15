@@ -19,7 +19,21 @@ Beginners Application
   11. [Implementing Different Kinds of Event Handler](/EventHandler)
   12. [Radio Group and Radio Button](/RadioButton_RadioGroup)
 
-###### Note: In Example 9: Handler is just use to delay the progressDialog, we will explore Handler in future Example
+###### Note: In Example 9 of Beginners Application: Handler is just use to delay the progressDialog, we will explore Handler in future Example
+
+
+UNC Charlotte Mobile Application Development (MAD) Course 5180 - Fall 2017
+
+InClass
+
+
+Homework
+
+   1. [Music Search Application using Last.fm Library](/HW05) 
+   
+###### Note: In Homework 5: We have used ListViews, Shared Preferences and JSON Parsing
+
+
  
 
 

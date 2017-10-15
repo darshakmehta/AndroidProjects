@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HW05</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="quit">Quit</string>
+    <string name="search_music">Search Music</string>
+    <string name="searchBox" />
+    <string name="searchButton">Search</string>
+    <string name="Favorites">Favorites</string>
+    <string name="title_activity_search__results">Search_Results</string>
+    <string name="results">Results</string>
+    <string name="artist">Artist</string>
+    <string name="artistTrack">Artist: </string>
+    <string name="name">Name</string>
+    <string name="tag">false</string>
+    <string name="title_activity_track__details">Track_Details</string>
+    <string name="url">URL: </string>
+    <string name="nameTrack">Name: </string>
+    <string name="similar">Similar Tracks</string>
+</resources>
