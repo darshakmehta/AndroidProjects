@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Midterm</string>
+    <string name="action_settings">Settings</string>
+    <string name="quit">Quit</string>
+    <string name="rating">Sort by Rating</string>
+    <string name="popularity">Sort by Popularity</string>
+    <string name="favorites">Show Favorites</string>
+    <string name="search_movie">Search Movies</string>
+    <string name="searchBox"></string>
+    <string name="searchButton">Search</string>
+    <string name="Results">Results</string>
+    <string name="title">Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="release">Released in </string>
+    <string name="title_activity_movie__details">Movie_Details</string>
+    <string name="title1">Title:</string>
+    <string name="Home">Home</string>
+    <string name="title_activity_favorite__movies">Favorite_Movies</string>
+    <string name="fav">Favorites</string>
+</resources>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mad.com.midterm.MainActivity">
+    <item
+        android:id="@+id/itemRating"
+        android:orderInCategory="100"
+        android:title="@string/rating"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemPopularity"
+        android:orderInCategory="100"
+        android:title="@string/popularity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemFavorites"
+        android:orderInCategory="100"
+        android:title="@string/favorites"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemQuit"
+        android:orderInCategory="100"
+        android:title="@string/quit"
+        app:showAsAction="never" />
+</menu>
