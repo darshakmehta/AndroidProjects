@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         colors.add(new Color("Orange","#FF6600"));
         colors.add(new Color("Grey","#BBBBBB"));
         colors.add(new Color("Brown","#654321"));
+        colors.add(new Color("Unknown","#123456"));
 
         ListView listView = (ListView) findViewById(R.id.myListView);
         //ArrayAdapter<Color> adapter = new ArrayAdapter<Color>(this, android.R.layout.simple_list_item_1, colors);
