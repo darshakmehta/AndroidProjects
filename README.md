@@ -18,6 +18,12 @@ Beginners Application
   10. [Intent: startActivityForResult](/ActivityForResult)
   11. [Implementing Different Kinds of Event Handler](/EventHandler)
   12. [Radio Group and Radio Button](/RadioButton_RadioGroup)
+  13. [ListView to display list of Colors](/ListViewDemo)
+  14. [ListView to display list of emails](/ListViewEmail)
+  15. [RecyclerView to display list of emails](/RecyclerView)
+  16. [CardView to display list of emails in card layout](/CardView)
+  17. [SQLite database to store Notes](/SQLiteNotes)
+
 
 ###### Note: In Example 9 of Beginners Application: Handler is just use to delay the progressDialog, we will explore Handler in future Example
 
@@ -34,7 +40,8 @@ Homework
 ###### Note: In Homework 5: We have used ListViews, Shared Preferences and JSON Parsing
 
 
- 
+Midterm
 
+   1. [Movie Search Application using THEMOVIEDB Library](/Midterm)
 
   
