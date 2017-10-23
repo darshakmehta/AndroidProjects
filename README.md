@@ -32,6 +32,7 @@ UNC Charlotte Mobile Application Development (MAD) Course 5180 - Fall 2017
 
 InClass
 
+   6. [Recipe Puppy Finder using XML Pull Parser](/Recipe_Puppy_Finder)
 
 Homework
 
