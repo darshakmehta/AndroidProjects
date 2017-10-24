@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageViewSmall"
+        android:layout_width="80dp"
+        android:layout_height="61dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewDollar"
+        android:layout_width="94dp"
+        android:layout_height="21dp"
+        app:srcCompat="@drawable/price_high"
+        android:layout_marginTop="-2dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPrice"
+        app:layout_constraintLeft_toRightOf="@+id/imageViewSmall"
+        android:layout_marginLeft="0dp" />
+
+
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="225dp"
+            android:layout_height="18dp"
+            android:text="name"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="12dp"
+            app:layout_constraintLeft_toRightOf="@+id/imageViewSmall"
+            android:layout_marginLeft="8dp" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="228dp"
+            android:layout_height="19dp"
+            android:text="price"
+            android:layout_marginTop="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName"
+            app:layout_constraintLeft_toRightOf="@+id/imageViewSmall"
+            android:layout_marginLeft="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/shape"
+    android:padding="7dp"
+    android:layout_marginLeft="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="184dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/ic_launcher"
+         />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/priceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Price Value: "
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/priceSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/price_low" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="116dp"
+            android:layout_height="38dp"
+            app:srcCompat="@drawable/delete_icon" />
+
+    </LinearLayout>
+</LinearLayout>
