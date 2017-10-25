@@ -4,10 +4,22 @@
     android:orientation="vertical" android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="@drawable/shape"
-    android:padding="7dp"
-    android:layout_marginLeft="20dp">
 
+    android:padding="7dp"
+    android:layout_marginLeft="20dp"><!--android:background="@drawable/shape"-->
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:layout_gravity="center"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,7 +39,7 @@
             android:layout_width="wrap_content"
             android:textSize="14dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+
             android:text="" />
 
     </LinearLayout>
@@ -56,9 +68,9 @@
         <ImageView
             android:id="@+id/priceSymbol"
             android:layout_width="wrap_content"
-            android:layout_height="25dp"
-
+            android:layout_height="22dp"
             android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
             app:srcCompat="@drawable/price_low" />
 
         <ImageView
@@ -68,4 +80,6 @@
             app:srcCompat="@drawable/delete_icon" />
 
     </LinearLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v7.widget.CardView>
 </LinearLayout>

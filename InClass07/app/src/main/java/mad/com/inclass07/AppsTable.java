@@ -11,7 +11,6 @@ import android.util.Log;
 public class AppsTable {
 
     public static final String TABLE_NAME = "apps";
-    /*public static final String COLUMN_ID = "_id";*/
     public static final String COLUMN_PRICE = "price";
     public static final String COLUMN_NAME = "name";
     public static final String COLUMN_SMALL_THUMB = "small_thumb";
@@ -26,9 +25,7 @@ public class AppsTable {
         createQuery.append(COLUMN_SMALL_THUMB+" text not null );");
         try{
             db.execSQL(createQuery.toString());
-            Log.d("TABLE", "Created Table");
         }catch(SQLException sqle){
-            Log.d("TABLE", "Exception");
             sqle.printStackTrace();
         }
 

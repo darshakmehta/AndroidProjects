@@ -89,7 +89,6 @@ public class AppRecyclerView extends RecyclerView.Adapter<AppRecyclerView.ViewHo
 
         public ViewHolder(View itemView) {
             super(itemView);
-            this.app = app;
             appName = (TextView) itemView.findViewById(R.id.appName);
             priceValue = (TextView) itemView.findViewById(R.id.priceValue);
             imageView = (ImageView) itemView.findViewById(R.id.imageView);

@@ -10,9 +10,9 @@ public class PriceComparatorAsc implements Comparator<App> {
 
     @Override
     public int compare(App app1, App app2) {
-        double rating1 = Double.parseDouble(app1.getPrice());
-        double rating2 = Double.parseDouble(app2.getPrice());
-        if(rating1 > rating2){
+        double price1 = Double.parseDouble(app1.getPrice());
+        double price2 = Double.parseDouble(app2.getPrice());
+        if(price1 > price2){
             return 1;
         } else {
             return -1;

@@ -10,9 +10,6 @@ public class App {
     String name;
     String price;
 
-
-
-
     public String getSmall_thumb_url() {
         return small_thumb_url;
     }
