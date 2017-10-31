@@ -23,9 +23,15 @@ Beginners Application
   15. [RecyclerView to display list of emails](/RecyclerView)
   16. [CardView to display list of emails in card layout](/CardView)
   17. [SQLite database to store Notes](/SQLiteNotes)
+  18. [Fragment LifeCycle](/Fragment_LifeCycle)
+  19. [Fragment UI Components](/Fragment_UI_Components)
+  20. [Fragment UI Components](/Fragment_UI_Components)
+  21. [Sending Data from Activity to Fragment](/Fragment_Send_Data_From_Activity)
+
 
 
 ###### Note: In Example 9 of Beginners Application: Handler is just use to delay the progressDialog, we will explore Handler in future Example
+###### Note: In Example 19 of Beginners Application: Access the DUMP UI Hierarchy from Android Device Monitor to understand about the Fragment within Activity
 
 
 UNC Charlotte Mobile Application Development (MAD) Course 5180 - Fall 2017
