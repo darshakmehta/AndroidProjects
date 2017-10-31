@@ -27,6 +27,7 @@ Beginners Application
   19. [Fragment UI Components](/Fragment_UI_Components)
   20. [Fragment UI Components](/Fragment_UI_Components)
   21. [Sending Data from Activity to Fragment](/Fragment_Send_Data_From_Activity)
+  22. [Sending Data from Fragment to Activity](/Fragment_Send_Data_From_Fragment)
 
 
 
