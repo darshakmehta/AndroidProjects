@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InClass11</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="notRegister">Not registered?</string>
+    <string name="signup">SignUp</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="password_8">Password (min 8 characters)</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="email">Email</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="birthday">Date of Birth</string>
+    <string name="post">Write a post</string>
+    <string name="logout">logout</string>
+    <string name="save">Save</string>
+    <string name="posts">Posts</string>
+    <string name="myposts">My Posts</string>
+    <string name="sendpost">Post</string>
+    <string name="phone">phone</string>
+</resources>

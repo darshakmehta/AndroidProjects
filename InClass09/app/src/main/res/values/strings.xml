@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chat Room</string>
+    <string name="signUpLabel">Sign Up</string>
+    <string name="messageThreads">Message Threads</string>
+    <string name="chatrooms">ChatRoom</string>
+    <string name="action_home">Home</string>
+    <string name="action_quit">Quit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="notRegister">Not registered?</string>
+    <string name="signup">SignUp</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="password_8">Password (min 6 characters)</string>
+    <string name="register">Register</string>
+    <string name="your_courses">Your Courses</string>
+    <string name="title">Title</string>
+    <string name="email">Email</string>
+    <string name="repeatpassword">Repeat Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+</resources>

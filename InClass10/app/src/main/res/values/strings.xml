@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="notRegister">Not registered?</string>
+    <string name="signup">SignUp</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="password_8">Password (min 8 characters)</string>
+    <string name="register">Register</string>
+    <string name="your_courses">Your Courses</string>
+    <string name="title">Title</string>
+    <string name="instructor">Instructor</string>
+    <string name="day">Day</string>
+    <string name="time">Time</string>
+    <string name="add">Add</string>
+    <string name="reset">Reset</string>
+    <string name="email">Email</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="alreadyUser">Alreay an User?</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="department">Department:</string>
+    <string name="sis">SIS</string>
+    <string name="cs">CS</string>
+    <string name="bio">BIO</string>
+    <string name="AccountIsSearchable">Account is Searchable</string>
+    <string name="Your_Current_Mood">Your Current Mood:</string>
+    <string name="Submit_Button">Submit</string>
+    <string name="select_avatar">Select Avatar</string>
+    <string name="textview_name">Name</string>
+    <string name="textview_email">Email</string>
+    <string name="textview_prog_lang">Prog. Language:</string>
+    <string name="textview_account_state">Account State:</string>
+    <string name="phone">Phone</string>
+    <string name="createNewContact">Create New Contact</string>
+    <string name="contacts">Contacts</string>
+
+</resources>

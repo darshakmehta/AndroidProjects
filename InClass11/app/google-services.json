@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "929220461609",
+    "firebase_url": "https://festive-post-122005.firebaseio.com",
+    "project_id": "festive-post-122005"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929220461609:android:951a9eff478ebb6c",
+        "android_client_info": {
+          "package_name": "com.uncc.inclass11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929220461609-rmcsj3ugc0t0m6ootoue428q27b2f4pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uncc.inclass11",
+            "certificate_hash": "ebd94a3d7402158649129b8ec65f8d4e44567af7"
+          }
+        },
+        {
+          "client_id": "929220461609-5jvj16dv7bq8bd7ahtijkto864v2i3qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7PPwlIFfPic_n8R8zkOi-lVyl8z73L3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929220461609-5jvj16dv7bq8bd7ahtijkto864v2i3qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

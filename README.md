@@ -46,6 +46,12 @@ InClass
    5. [RecipePuppy recipe finder](/InClass05)
    6. [Recipe Puppy Finder using XML Pull Parser](/Recipe_Puppy_Finder)
    7. [Itunes API Top Paid Applications using JSON Parsing, RecyclerView and SQLite Database ](/InClass07)
+   8. [Revisited - RecipePuppy recipe finder](/InClass08)
+   9. [HTTP Connections, Authentication using Postman](/InClass09)
+   10. [Firebase - Managing Contacts 1](/InClass10)
+   11. [Firebase - Managing Contacts 2](/InClass11)
+   12. [Location based services with help of GenyMotion](/InClass12)
+   13. [Trip Planner Application](/InClass13Test)
 
 Homework
 
