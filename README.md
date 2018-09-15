@@ -71,3 +71,4 @@ Midterm
    1. [Movie Search Application using THEMOVIEDB Library](/Midterm)
 
   
+###### Note: All the Question document is present in the app folder
