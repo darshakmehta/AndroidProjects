@@ -29,6 +29,7 @@ Beginners Application
   21. [Sending Data from Fragment to Activity](/Fragment_Send_Data_From_Fragment)
   22. [Dynamically adding Fragments](/Fragment_Dynamic_Embed)
   23. [Managing Multiple Fragments](/MultiFragmentDemo)
+  24. [Fragment Demo](/FragmentDemo)
 
 
 
