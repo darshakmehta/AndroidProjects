@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="department">Department:</string>
+    <string name="sis">SIS</string>
+    <string name="cs">CS</string>
+    <string name="bio">BIO</string>
+    <string name="AccountIsSearchable">Account is Searchable</string>
+    <string name="Your_Current_Mood">Your Current Mood:</string>
+    <string name="Submit_Button">Submit Button</string>
+    <string name="select_avatar">Select Avatar</string>
+    <string name="textview_name">Name:</string>
+    <string name="textview_email">Email:</string>
+    <string name="textview_prog_lang">Prog. Language:</string>
+    <string name="textview_account_state">Account State:</string>
+    <string name="textview_mood">Mood:</string>
+    <string name="mood_angry">Angry</string>
+</resources>
