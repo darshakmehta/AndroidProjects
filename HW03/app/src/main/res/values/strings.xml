@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Search Words</string>
+    <string name="words_search">Add words to search:</string>
+    <string name="word">word</string>
+    <string name="search_btn">Search</string>
+    <string name="match_cases">Match Cases</string>
+    <string name="add">1</string>
+    <string name="remove">0</string>
+    <string name="addKeyword">addKeyword</string>
+    <string name="secondActivity">Words found</string>
+    <string name="finish">Finish</string>
+    <string name="words_found">Words found</string>
+</resources>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calculator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.uncc.hw1.MainActivity"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:text="@string/zero"
+            android:textSize="40dp"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/seven"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/eight"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/nine"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/division"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/division"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getOperation"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/four"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/five"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/six"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/multiplication"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/multiplication"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getOperation"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdRow"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/one"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/two"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/three"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/subtraction"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/subtraction"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getOperation"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthRow"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/zero"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/zero"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/dot"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/dot"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getInput"/>
+
+        <TextView
+            android:id="@+id/equal"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/equal"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="calculate"/>
+
+        <TextView
+            android:id="@+id/addition"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/addition"
+            android:textSize="50dp"
+            android:layout_weight="0.25"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:onClick="getOperation"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fifthRow"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/ac"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:text="@string/ac"
+            android:textSize="50dp"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            android:onClick="clearAllResults"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mad.com.hw06.DisplayCourseFragment">
+
+  <android.support.constraint.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <TextView
+          android:id="@+id/displayInstructorUsername"
+          android:layout_width="wrap_content"
+          android:layout_height="45dp"
+          android:layout_marginEnd="8dp"
+          android:layout_marginTop="8dp"
+          android:textSize="20dp"
+          android:text="@string/courseUser"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/displayCourseTitle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="24dp"
+          android:layout_marginTop="32dp"
+          android:text="Course Title: "
+          android:textSize="20dp"
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/displayInstructorUsername" />
+
+      <TextView
+          android:id="@+id/displayCourseEmailId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="24dp"
+          android:layout_marginTop="20dp"
+          android:textSize="20dp"
+          android:text="Instructor Email id: "
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/displayCourseInstructorName" />
+
+      <TextView
+          android:id="@+id/displayCourseSchedule"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="24dp"
+          android:layout_marginTop="20dp"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:text="Schedule: "
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/displayCourseEmailId" />
+
+      <TextView
+          android:id="@+id/displayCourseCreditHours"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="24dp"
+          android:textSize="20dp"
+          android:layout_marginTop="20dp"
+          android:textStyle="bold"
+          android:text="Credit Hours: "
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/displayCourseSchedule" />
+
+      <TextView
+          android:id="@+id/displayCourseSemester"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="24dp"
+          android:textSize="20dp"
+          android:layout_marginTop="20dp"
+          android:textStyle="bold"
+          android:text="Semester:"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/displayCourseCreditHours" />
+
+      <TextView
+          android:id="@+id/displayCourseInstructorName"
+          android:layout_width="wrap_content"
+          android:textSize="20dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="24dp"
+          android:layout_marginTop="20dp"
+          android:textStyle="bold"
+          android:text="Instructor Name:"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/displayCourseTitle" />
+  </android.support.constraint.ConstraintLayout>
+</FrameLayout>
