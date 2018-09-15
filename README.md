@@ -58,7 +58,7 @@ Homework
    1. [Calculator App](/HW01)
    2. [Contacts App](/HW02)
    3. [Threads/AsyncTasks](/HW03)
-   4. [Trivia Quiz App](/HW04)
+   4. [Trivia Quiz App](/HW-04)
    5. [Music Search Application using Last.fm Library](/HW05) 
    6. [Course Manager App](/HW06)
    7. [Social Networking App](/HW07)
