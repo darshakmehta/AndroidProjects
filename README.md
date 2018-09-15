@@ -40,6 +40,7 @@ UNC Charlotte Mobile Application Development (MAD) Course 5180 - Fall 2017
 
 InClass
 
+   2. [Area Calculator](/InClass02)
    6. [Recipe Puppy Finder using XML Pull Parser](/Recipe_Puppy_Finder)
    7. [Itunes API Top Paid Applications using JSON Parsing, RecyclerView and SQLite Database ](/InClass07)
 
