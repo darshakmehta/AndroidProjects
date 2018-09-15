@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="com.darshak.areacalculator.MainActivity">
+
+    <TextView
+        android:id="@+id/length1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/Length1" />
+
+    <TextView
+        android:id="@+id/length2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/length1"
+        android:layout_alignRight="@+id/length1"
+        android:layout_below="@+id/length1"
+        android:layout_marginTop="38dp"
+        android:text="@string/Length2" />
+
+    <EditText
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/length1"
+        android:layout_alignBottom="@+id/length1"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_toEndOf="@+id/length1"
+        android:layout_toRightOf="@+id/length1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/l1"
+        android:layout_alignRight="@+id/l1"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/l2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="46dp"
+        app:srcCompat="@drawable/triangle"
+        android:onClick="triangle"/>
+
+    <ImageButton
+        android:id="@+id/square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/triangle"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/triangle"
+        android:layout_toRightOf="@+id/triangle"
+        android:onClick="square"
+        app:srcCompat="@drawable/square" />
+
+    <ImageButton
+        android:id="@+id/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/square"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/square"
+        android:onClick="circle"
+        app:srcCompat="@drawable/circle" />
+
+    <TextView
+        android:id="@+id/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/square"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/Shape" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/shape"
+        android:layout_alignRight="@+id/shape"
+        android:layout_below="@+id/shape"
+        android:layout_marginTop="15dp"
+        android:onClick="calculate"
+        android:text="@string/Calculate" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/l1"
+        android:layout_toLeftOf="@+id/square"
+        android:layout_toStartOf="@+id/square"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/shape"
+        android:layout_alignStart="@+id/shape"
+        android:layout_below="@+id/calculate"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calculate"
+        android:layout_alignStart="@+id/calculate"
+        android:layout_below="@+id/answer"
+        android:layout_marginTop="13dp"
+        android:onClick="clear"
+        android:text="@string/Clear" />
+</RelativeLayout>
